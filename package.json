@@ -1,0 +1,25 @@
+{
+  "name": "bankclone",
+  "version": "1.0.0",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "description": "A fictional bank application",
+  "main": "script.js",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robinsahu/Bankist.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/robinsahu/Bankist/issues"
+  },
+  "homepage": "https://github.com/robinsahu/Bankist#readme",
+  "devDependencies": {
+    "parcel": "^2.0.0"
+  }
+}

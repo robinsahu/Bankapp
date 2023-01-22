@@ -5,20 +5,23 @@
   "description": "A fictional bank application",
   "scripts": {
     "dev": "parcel src/index.html",
-    "build": "parcel build src/index.html"
+    "build": "parcel build src/index.html",
+    "predeploy" : "npm run build",
+"deploy" : "gh-pages -d build"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/robinsahu/Bankist.git"
+    "url": "http://robinsahu.github.io/Bankapp"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/robinsahu/Bankist/issues"
+    "url": "http://robinsahu.github.io/Bankapp"
   },
-  "homepage": "https://github.com/robinsahu/Bankist#readme",
+  "homepage": "http://robinsahu.github.io/Bankapp",
   "devDependencies": {
+    "gh-pages": "^5.0.0",
     "parcel": "^2.0.0"
   }
 }
